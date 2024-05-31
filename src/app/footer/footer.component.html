@@ -1,0 +1,59 @@
+<div class="container">
+    <h1>Jewellery Store <sup>®</sup></h1>
+ 
+    <ul>
+ <li routerLink="/" class="links">Home</li>
+ <li routerLink="/product" class="links">Products</li>
+ <li routerLink="/dailywear" class="links">DailWear</li>
+ <li routerLink="/account" class="links">Account</li>
+ <li routerLink="/cart" class="links">Add to Cart</li>
+    </ul>
+
+    <div class="inner-container">
+
+        <h2>Get In Touch</h2>
+      
+        <form #f="ngForm" (ngSubmit)="submit(f)" class="common-form">
+            <!-- <label class="label-class" >Name:</label> -->
+            <br>
+                      <input type="text"
+            
+                      class="form-input"
+            
+                      placeholder="Enter User Name "
+                      name="name"
+                      #name="ngModel"
+                      ngModel
+                      required
+                      >
+            
+              <div class="alert" *ngIf="name.invalid && name.touched">
+                Enter User Name
+              </div>
+              <br><br><br><br>
+              <!-- <label class="label-class2" >Email:</label><br> -->
+              <input type="text"
+              class="form-input"
+              placeholder="Enter User Email"
+              name="email"
+              #email="ngModel"
+              ngModel
+              required
+              pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+              >
+            
+              <div class="alert" *ngIf="email.invalid && email.touched">
+                Enter User Email
+              </div>
+            
+              <br><br><br><br>
+              <!-- <label class="label-class3" >Password:</label><br> -->
+              <textarea  cols="30" rows="10" placeholder="Please Share Your Feedback! Your Feedback is valuable for us. "></textarea>
+              <br><br><br><br>
+            
+              <button class="btn" type="submit" (click)="submited()"   [disabled]="f.invalid" >Send FeedBack</button>
+            </form>
+   
+        </div>
+
+        <p>Jewellery Store © JewelleryStore.com, All Rights Reserved. </p>

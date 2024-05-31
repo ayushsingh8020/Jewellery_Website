@@ -1,0 +1,36 @@
+
+<app-navbar (searchItem)="searchItem($event)"></app-navbar>
+
+
+<main>
+
+  <div class="container">
+    <!-- product-box -->
+    <div class="product-box" *ngFor="let product of products">
+      <!--product's image-box -->
+      <div class="image-box">
+        <img [src]="product.images[0]" alt="" />
+      </div>
+
+        <div class="content">
+          <p class="brand">{{ product.brand }}</p>
+          <h2>{{ product.title }}</h2>
+          <p class="description">{{ product.description }}</p>
+          <p class="price">
+            <sup>  {{ product.price | currency : "INR" }}</sup>
+          </p>
+          <!-- <p class="weight-btn">Weight: 80 gram</p> -->
+        <button class="card-add" (click)="addtocart(product)" routerLink="/cart" >Add to Cart </button>
+        <button class="buy-now"  routerLink=""> Buy Now  </button>
+
+        </div>
+    </div>
+  </div>
+
+  <br>
+<app-products></app-products>
+
+<app-footer></app-footer>
+</main>
+
+

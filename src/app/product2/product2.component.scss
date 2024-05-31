@@ -1,0 +1,2046 @@
+@import '/src/styles.scss';
+
+
+#background-video {
+    position: absolute;
+    width:100%;
+    height:100vh;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;    
+    z-index:1;
+ }
+
+ 
+ 
+ 
+ .container{
+   position: relative;
+   height: 80rem;
+   width: 100%;
+   background:linear-gradient(30deg, rgba(255, 88, 205, 0.76), rgba(0, 0, 0, 0.322),rgba(185, 137, 6, 0.76),rgba(97, 97, 97, 0.363));
+   margin-top: 50rem;
+  display: flex;
+
+  
+  .image-box{
+     position: relative;
+     width:30rem;
+     height:50rem;
+     overflow: hidden;
+     //   border-radius: 3rem;
+     //   border: 1rem solid #000;
+     margin-left: 2rem;
+     margin-top: 20rem;
+     z-index: 1;
+   }
+
+.pic1{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   height:70vh;
+   width: 80%;
+   border: 1px solid #000;
+   border-radius: 3rem;
+   object-fit: cover;
+
+}
+.btn1{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   display: flex;
+   height: 2rem;
+   margin-top:65rem;
+   margin-left: 7rem;
+   padding: .5rem 3.4rem;
+   z-index: 1;
+   border-radius: .4rem;
+   border:1px solid #000;
+   color: #fff;
+   font-family: $customFont2;
+   word-spacing: .5rem;
+   background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   cursor: pointer;
+}
+
+.btn2{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   display: flex;
+   height: 2rem;
+   margin-top:68rem;
+   margin-left: 7rem;
+   padding: .5rem 4rem;
+   z-index: 1;
+   border-radius: .4rem;
+   word-spacing: .5rem;
+   border:1px solid #000;
+   color: #fff;
+   font-family: $customFont2;
+   cursor: pointer;
+   background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+}
+
+
+.image-box2{
+   position: relative;
+   width:30rem;
+   height:50rem;
+   overflow: hidden;
+   // border:.1rem solid #333;
+   //   border-radius: 1rem;
+   margin-left:5rem;
+   margin-top: 20rem;
+   z-index: 1;
+   
+}
+
+.pic2{
+   position: absolute;
+   border: 1px solid #000;
+    overflow:hidden;
+    box-sizing: border-box;
+    height:70vh;
+    width: 80%;
+    border-radius: 3rem;
+    object-fit: cover;
+   
+}
+
+.btn3{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   display: flex;
+   height: 2rem;
+   margin-top:65rem;
+   margin-left: 43rem;
+   padding: .5rem 3.4rem;
+   z-index: 1;
+   border-radius: .4rem;
+   border:1px solid #000;
+   color: #fff;
+   font-family: $customFont2;
+   word-spacing: .5rem;
+   background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   cursor: pointer;
+}
+
+.btn4{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   display: flex;
+   height: 2rem;
+   margin-top:68rem;
+   margin-left:43rem;
+   padding: .5rem 4rem;
+   z-index: 1;
+   border-radius: .4rem;
+   word-spacing: .5rem;
+   border:1px solid #000;
+   color: #fff;
+   font-family: $customFont2;
+   cursor: pointer;
+   background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+}
+
+.image-box3{
+   position: relative;
+   width:30rem;
+   height:50rem;
+   overflow: hidden;
+   // border:.1rem solid #333;
+//   border-radius: 1rem;
+  margin-left:5rem;
+  margin-top: 20rem;
+  z-index: 1;
+
+ }
+
+ .pic3{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   height:70vh;
+   width: 80%;
+   border-radius: 3rem;
+   border: 1px solid #000;
+   object-fit: cover;   
+}
+
+.btn5{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   display: flex;
+   height: 2rem;
+   margin-top:65rem;
+   margin-left:78rem;
+   padding: .5rem 3.4rem;
+   z-index: 1;
+   border-radius: .4rem;
+   border:1px solid #000;
+   color: #fff;
+   font-family: $customFont2;
+   word-spacing: .5rem;
+   background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   cursor: pointer;
+}
+
+.btn6{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   display: flex;
+   height: 2rem;
+   margin-top:68rem;
+   margin-left:78rem;
+   padding: .5rem 4rem;
+   z-index: 1;
+   border-radius: .4rem;
+   word-spacing: .5rem;
+   border:1px solid #000;
+   color: #fff;
+   font-family: $customFont2;
+   cursor: pointer;
+   background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+}
+}
+
+@media only screen  and (max-width:1336px){
+   #background-video{
+      position: absolute;
+      width:100%;
+      height:50rem;
+   }
+   
+   .container{
+      position: relative;
+      width:100%;
+      height:70rem;
+      // margin-left:2%;
+      margin-top:50rem;
+      display: flex;
+   
+       
+     .image-box{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:1rem;
+      margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+    .btn1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:7rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:7rem;
+      padding: .5rem 1.7rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box2{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:2rem;
+      margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+   
+    .btn3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:35rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn4{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:35rem;
+      padding: .5rem 1.7rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box3{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:3rem;
+         margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+   
+    .btn5{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:65rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn6{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:65rem;
+      padding: .5rem 1.7rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   }
+}
+
+@media only screen and (max-width:1220px){
+   #background-video{
+      position: absolute;
+      width:100%;
+      height:50rem;
+   }
+   
+   .container{
+      position: relative;
+      width:100%;
+      height:70rem;
+      // margin-left:2%;
+      margin-top:50rem;
+      display: flex;
+   
+       
+     .image-box{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:1rem;
+      margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+    .btn1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:3rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:3rem;
+      padding: .5rem 1.7rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box2{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:2rem;
+      margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+   
+    .btn3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:32rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn4{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:32rem;
+      padding: .5rem 1.7rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box3{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:3rem;
+         margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+   
+    .btn5{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:58rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn6{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:58rem;
+      padding: .5rem 1.7rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   }
+}
+
+@media only screen and (max-width:1080px){
+   #background-video{
+      position: absolute;
+      width:100%;
+      height:50rem;
+   }
+   
+   .container{
+      position: relative;
+      width:100%;
+      height:70rem;
+      // margin-left:2%;
+      margin-top:50rem;
+      display: flex;
+   
+       
+     .image-box{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:1rem;
+      margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+    .btn1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:3rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:3rem;
+      padding: .5rem 1.7rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box2{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:2rem;
+      margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+   
+    .btn3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:28rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn4{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:28rem;
+      padding: .5rem 1.7rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box3{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:3rem;
+         margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+   
+    .btn5{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:51rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn6{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:51rem;
+      padding: .5rem 1.7rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   }
+}
+
+
+@media only screen and (max-width:920px){
+   #background-video{
+      position: absolute;
+      width:100%;
+      height:50rem;
+   }
+   
+   .container{
+      position: relative;
+      width:100%;
+      height:70rem;
+      // margin-left:2%;
+      margin-top:50rem;
+      display: flex;
+   
+       
+     .image-box{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:1rem;
+      margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+    .btn1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:3rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:3rem;
+      padding: .5rem 1.7rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box2{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:2rem;
+      margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+   
+    .btn3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:22.5rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn4{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:22.5rem;
+      padding: .5rem 1.7rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box3{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:3rem;
+         margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+   
+    .btn5{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:41rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn6{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:41rem;
+      padding: .5rem 1.7rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   }
+}
+
+
+@media only screen and (max-width:768px){
+#background-video{
+   position: absolute;
+   width:100%;
+   height:50rem;
+}
+
+.container{
+   position: relative;
+   width:100%;
+   height:70rem;
+   // margin-left:2%;
+   margin-top:50rem;
+   display: flex;
+
+    
+  .image-box{
+   position: relative;
+   width:150rem;
+   height:40rem;
+   overflow: hidden;
+   //   border-radius: 3rem;
+   //   border: 1rem solid #000;
+   margin-left:1rem;
+   margin-top:10rem;
+   z-index: 1;
+ }
+
+ .pic1{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   height:50vh;
+   width:80%;
+   border: 1px solid #000;
+   border-radius: 3rem;
+   object-fit: cover;
+ }
+ .btn1{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   display: flex;
+   height: 2rem;
+   margin-top:40rem;
+   margin-left:2rem;
+   padding: .5rem 1rem;
+   z-index: 1;
+   border-radius: .4rem;
+   border:1px solid #000;
+   color: #fff;
+   font-family: $customFont2;
+   word-spacing: .5rem;
+   background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   cursor: pointer;
+}
+
+.btn2{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   display: flex;
+   height: 2rem;
+   margin-top:45rem;
+   margin-left:2rem;
+   padding: .5rem 1.7rem;
+   z-index: 1;
+   border-radius: .4rem;
+   word-spacing: .5rem;
+   border:1px solid #000;
+   color: #fff;
+   font-family: $customFont2;
+   cursor: pointer;
+   background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+}
+
+    
+.image-box2{
+   position: relative;
+   width:150rem;
+   height:40rem;
+   overflow: hidden;
+   //   border-radius: 3rem;
+   //   border: 1rem solid #000;
+   margin-left:2rem;
+   margin-top:10rem;
+   z-index: 1;
+ }
+
+ .pic2{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   height:50vh;
+   width:80%;
+   border: 1px solid #000;
+   border-radius: 3rem;
+   object-fit: cover;
+ }
+
+ .btn3{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   display: flex;
+   height: 2rem;
+   margin-top:40rem;
+   margin-left:18rem;
+   padding: .5rem 1rem;
+   z-index: 1;
+   border-radius: .4rem;
+   border:1px solid #000;
+   color: #fff;
+   font-family: $customFont2;
+   word-spacing: .5rem;
+   background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   cursor: pointer;
+}
+
+.btn4{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   display: flex;
+   height: 2rem;
+   margin-top:45rem;
+   margin-left:18rem;
+   padding: .5rem 1.7rem;
+   z-index: 1;
+   border-radius: .4rem;
+   word-spacing: .5rem;
+   border:1px solid #000;
+   color: #fff;
+   font-family: $customFont2;
+   cursor: pointer;
+   background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+}
+
+    
+.image-box3{
+   position: relative;
+   width:150rem;
+   height:40rem;
+   overflow: hidden;
+   //   border-radius: 3rem;
+   //   border: 1rem solid #000;
+   margin-left:3rem;
+      margin-top:10rem;
+   z-index: 1;
+ }
+
+ .pic3{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   height:50vh;
+   width:80%;
+   border: 1px solid #000;
+   border-radius: 3rem;
+   object-fit: cover;
+ }
+
+ .btn5{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   display: flex;
+   height: 2rem;
+   margin-top:40rem;
+   margin-left:36rem;
+   padding: .5rem 1rem;
+   z-index: 1;
+   border-radius: .4rem;
+   border:1px solid #000;
+   color: #fff;
+   font-family: $customFont2;
+   word-spacing: .5rem;
+   background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   cursor: pointer;
+}
+
+.btn6{
+   position: absolute;
+   overflow:hidden;
+   box-sizing: border-box;
+   display: flex;
+   height: 2rem;
+   margin-top:45rem;
+   margin-left:36rem;
+   padding: .5rem 1.7rem;
+   z-index: 1;
+   border-radius: .4rem;
+   word-spacing: .5rem;
+   border:1px solid #000;
+   color: #fff;
+   font-family: $customFont2;
+   cursor: pointer;
+   background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+}
+}
+}
+
+@media only screen and (max-width:712px){
+   #background-video{
+      position: absolute;
+      width:100%;
+      height:50rem;
+   }
+   
+   .container{
+      position: relative;
+      width:100%;
+      height:70rem;
+      // margin-left:2%;
+      margin-top:50rem;
+      display: flex;
+   
+       
+     .image-box{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:1rem;
+      margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+    .btn1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:2rem;
+      padding: .5rem .8rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:2rem;
+      padding: .5rem 1.5rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box2{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:2rem;
+      margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+   
+    .btn3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:17.5rem;
+      padding: .5rem .8rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn4{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:17.5rem;
+      padding: .5rem 1.5rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box3{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:3rem;
+         margin-top:10rem;
+      z-index: 1;
+    }
+   
+    .pic3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:80%;
+      border: 1px solid #000;
+      border-radius: 3rem;
+      object-fit: cover;
+    }
+   
+    .btn5{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:40rem;
+      margin-left:33rem;
+      padding: .5rem .8rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn6{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:45rem;
+      margin-left:33rem;
+      padding: .5rem 1.4rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   }
+}
+
+@media only screen and (max-width:676px){
+   #background-video{
+      position: absolute;
+      width:100%;
+      height:50rem;
+   }
+   
+   .container{
+      position: relative;
+      width:100%;
+      height:128rem;
+      // margin-left:2%;
+      flex-wrap: wrap;
+      flex-basis: 1;
+      margin-top:50rem;
+      display: flex;
+   
+       
+     .image-box{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:2rem;
+      margin-top:3rem;
+      z-index: 1;
+    }
+   
+    .pic1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:95%;
+      border: 1px solid #000;
+      border-radius:1rem;
+      object-fit: cover;
+    }
+    .btn1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:35rem;
+      margin-left:4rem;
+      padding: .5rem .8rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:35rem;
+      margin-left:30rem;
+      padding: .5rem 1.5rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box2{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:2rem;
+      margin-top:2rem;
+      z-index: 1;
+    }
+   
+    .pic2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:95%;
+      border: 1px solid #000;
+      border-radius:1rem;
+      object-fit: cover;
+    }
+   
+    .btn3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:78rem;
+      margin-left:4rem;
+      padding: .5rem .8rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn4{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:78rem;
+      margin-left:30rem;
+      padding: .5rem 1.5rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box3{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:3rem;
+         margin-top:-2rem;
+      z-index: 1;
+    }
+   
+    .pic3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:95%;
+      border: 1px solid #000;
+      border-radius:1rem;
+      object-fit: cover;
+    }
+   
+    .btn5{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:116rem;
+      margin-left:4rem;
+      padding: .5rem .8rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn6{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:116rem;
+      margin-left:30rem;
+      padding: .5rem 1.4rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   }
+}
+
+
+@media only screen and (max-width:580px){
+   #background-video{
+      position: absolute;
+      width:104%;
+      height:50rem;
+   }
+   
+   .container{
+      position: relative;
+      width:104%;
+      height:128rem;
+      // margin-left:2%;
+      flex-wrap: wrap;
+      flex-basis: 1;
+      margin-top:50rem;
+      display: flex;
+   
+       
+     .image-box{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:2rem;
+      margin-top:3rem;
+      z-index: 1;
+    }
+   
+    .pic1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:95%;
+      border: 1px solid #000;
+      border-radius:1rem;
+      object-fit: cover;
+    }
+    .btn1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:35rem;
+      margin-left:8rem;
+      padding: .5rem .8rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:35rem;
+      margin-left:20rem;
+      padding: .5rem 1.5rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box2{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:2rem;
+      margin-top:2rem;
+      z-index: 1;
+    }
+   
+    .pic2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:95%;
+      border: 1px solid #000;
+      border-radius:1rem;
+      object-fit: cover;
+    }
+   
+    .btn3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:78rem;
+      margin-left:8rem;
+      padding: .5rem .8rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn4{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:78rem;
+      margin-left:20rem;
+      padding: .5rem 1.5rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box3{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:3rem;
+         margin-top:-2rem;
+      z-index: 1;
+    }
+   
+    .pic3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:95%;
+      border: 1px solid #000;
+      border-radius:1rem;
+      object-fit: cover;
+    }
+   
+    .btn5{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:116rem;
+      margin-left:8rem;
+      padding: .5rem .8rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn6{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:116rem;
+      margin-left:20rem;
+      padding: .5rem 1.4rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   }
+}
+
+@media only screen and (max-width:480px){
+   #background-video{
+      position: absolute;
+      width:104%;
+      height:50rem;
+   }
+   
+   .container{
+      position: relative;
+      width:104%;
+      height:128rem;
+      // margin-left:2%;
+      flex-wrap: wrap;
+      flex-basis: 1;
+      margin-top:50rem;
+      display: flex;
+   
+       
+     .image-box{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:2rem;
+      margin-top:3rem;
+      z-index: 1;
+    }
+   
+    .pic1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:95%;
+      border: 1px solid #000;
+      border-radius:1rem;
+      object-fit: cover;
+    }
+    .btn1{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:35rem;
+      margin-left:5rem;
+      padding: .5rem .3rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:35rem;
+      margin-left:15rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box2{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:2rem;
+      margin-top:2rem;
+      z-index: 1;
+    }
+   
+    .pic2{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:95%;
+      border: 1px solid #000;
+      border-radius:1rem;
+      object-fit: cover;
+    }
+   
+    .btn3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:78rem;
+      margin-left:5rem;
+      padding: .5rem .3rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn4{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:78rem;
+      margin-left:15rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   
+       
+   .image-box3{
+      position: relative;
+      width:150rem;
+      height:40rem;
+      overflow: hidden;
+      //   border-radius: 3rem;
+      //   border: 1rem solid #000;
+      margin-left:3rem;
+         margin-top:-2rem;
+      z-index: 1;
+    }
+   
+    .pic3{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      height:50vh;
+      width:95%;
+      border: 1px solid #000;
+      border-radius:1rem;
+      object-fit: cover;
+    }
+   
+    .btn5{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:116rem;
+      margin-left:5rem;
+      padding: .5rem .3rem;
+      z-index: 1;
+      border-radius: .4rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      word-spacing: .5rem;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+      cursor: pointer;
+   }
+   
+   .btn6{
+      position: absolute;
+      overflow:hidden;
+      box-sizing: border-box;
+      display: flex;
+      height: 2rem;
+      margin-top:116rem;
+      margin-left:15rem;
+      padding: .5rem 1rem;
+      z-index: 1;
+      border-radius: .4rem;
+      word-spacing: .5rem;
+      border:1px solid #000;
+      color: #fff;
+      font-family: $customFont2;
+      cursor: pointer;
+      background: linear-gradient(10deg, rgb(48, 24, 24), rgb(178, 235, 242));
+   }
+   }
+}
+
+// @media (max-width: 750px) {
+//    #background-video {
+//       display: none;
+//    } 
+// } 

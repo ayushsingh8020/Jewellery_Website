@@ -1,0 +1,156 @@
+<main>
+  <ng-container *ngIf="products.length != 0">
+    <div class="container">
+      <div class="card-table">
+        <div class="cart-product">
+          <table class="table-table-responsive">
+            <thead>
+              <tr>
+                <th>Sr.No</th>
+                <th>Product Name</th>
+                <th>Product Image</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <!-- <th>Total</th> -->
+                <th>Action</th>
+                <hr />
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of products; let i = index">
+                <td>{{ i + 1 }}</td>
+                <td>{{ item.title }}</td>
+                <td>
+                  <img
+                    style="width: 200px; height: 200"
+                    src="{{ item.images[0] }}"
+                    alt=""
+                  />
+                </td>
+                <td style="width: 25%">{{ item.description }}</td>
+                <th style="width: 12%">{{ item.price }}</th>
+                <td style="margin-left: 1rem">
+                  <button class="max-btn" (click)="plus()">+</button
+                  ><input
+                    class="quantity-Input"
+                    type="text"
+                    [value]="qnt"
+                  /><button class="min-btn" (click)="minus()">-</button>
+                </td>
+
+                <td style="width: 12%">{{ item.total }}</td>
+                <td>
+                  <button (click)="removeItem(item)" class="btn-btn-danger">
+                    Delete
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4"></td>
+
+                <td>
+                  <button (click)="emptycart()" class="btn-Empty">
+                    Empty Cart
+                  </button>
+                </td>
+                <td>
+                  <button routerLink="" class="btn-shop">Shop More</button>
+                </td>
+                <td><button class="btn-success">Checkout</button></td>
+                <td>
+                  <button class="btn-total">
+                    <strong
+                      >Grand Total {{ totalPrice | currency : "INR" }}
+                    </strong>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</main>
+<ng-container *ngIf="products.length == 0">
+  <div class="container2">
+    <div class="card">
+      <h5 class="card-title">My Cart</h5>
+    </div>
+    <!--?xml version="1.0" standalone="no"?-->
+    <svg
+      id="sw-js-blob-svg"
+      viewBox="0 0 100 100"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+          <stop
+            id="stop1"
+            stop-color="rgba(248, 117, 55, 1)"
+            offset="0%"
+          ></stop>
+          <stop
+            id="stop2"
+            stop-color="rgba(251, 168, 31, 1)"
+            offset="100%"
+          ></stop>
+        </linearGradient>
+      </defs>
+      <path
+        fill="url(#sw-gradient)"
+        d="M24.1,-34.6C31.4,-32.9,37.6,-26.4,38.4,-19.2C39.2,-11.9,34.6,-3.8,30.9,2.6C27.2,9.1,24.3,13.8,21.1,19.3C17.9,24.8,14.5,31.2,8.6,36.1C2.7,40.9,-5.7,44.4,-11.5,41.6C-17.4,38.9,-20.7,29.9,-23.5,22.6C-26.2,15.4,-28.4,9.9,-31.2,3.3C-34,-3.3,-37.4,-10.9,-35.9,-17.4C-34.5,-23.8,-28.2,-28.9,-21.4,-30.9C-14.6,-32.8,-7.3,-31.6,0.6,-32.5C8.4,-33.4,16.8,-36.3,24.1,-34.6Z"
+        width="100%"
+        height="100%"
+        transform="translate(50 50)"
+        stroke-width="0"
+        style="transition: all 0.3s ease 0s"
+      ></path>
+    </svg>
+<!--    
+    
+  <div class="svg2">
+      ?xml version="1.0" standalone="no"?
+      <svg 
+        id="sw-js-blob-svg"
+        viewBox="0 0 100 100"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+            <stop
+              id="stop1"
+              stop-color="rgba(248, 117, 55, 1)"
+              offset="0%"
+            ></stop>
+            <stop
+              id="stop2"
+              stop-color="rgba(251, 168, 31, 1)"
+              offset="100%"
+            ></stop>
+          </linearGradient>
+        </defs>
+        <path
+          fill="url(#sw-gradient)"
+          d="M24.1,-34.6C31.4,-32.9,37.6,-26.4,38.4,-19.2C39.2,-11.9,34.6,-3.8,30.9,2.6C27.2,9.1,24.3,13.8,21.1,19.3C17.9,24.8,14.5,31.2,8.6,36.1C2.7,40.9,-5.7,44.4,-11.5,41.6C-17.4,38.9,-20.7,29.9,-23.5,22.6C-26.2,15.4,-28.4,9.9,-31.2,3.3C-34,-3.3,-37.4,-10.9,-35.9,-17.4C-34.5,-23.8,-28.2,-28.9,-21.4,-30.9C-14.6,-32.8,-7.3,-31.6,0.6,-32.5C8.4,-33.4,16.8,-36.3,24.1,-34.6Z"
+          width="100%"
+          height="100%"
+          transform="translate(50 50)"
+          stroke-width="0"
+          style="transition: all 0.3s ease 0s"
+        ></path>
+      </svg>
+  </div> -->
+    <div class="center">
+      <img class="center-img" src="{{ imageURL }}" alt="" />
+      <h4>Your cart is empty !</h4>
+      <h6>Add item to it now</h6>
+
+      <button routerLink="" class="btn">Shop Now</button>
+    </div>
+  </div>
+</ng-container>
+
+<!-- <app-footer></app-footer> -->
+

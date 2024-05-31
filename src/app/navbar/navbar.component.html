@@ -1,0 +1,39 @@
+<!-- <div class="navbar">
+  <h1 routerLink="/" class="heading1">Jewellery Store</h1>
+  <ul [classList]="showMenu ? 'showMenu' : ''">
+    <input type="search"  (keyup)="search($event.target)"     placeholder="Search Your Product Here !"  />
+    <fa-icon class="search-bar" [icon]="searchBar"></fa-icon>
+  <a class="links" routerLink="/dailywear">DailyWear</a>
+  <a class="links2" routerLink="/product">Products</a>
+  <a class="links3" routerLink="/account"> Account</a>
+  <a class="links4" href="#"> Stores</a>
+  <a class="links5" routerLink="/cart">Cart ({{totalItem}})  </a>
+</ul>
+  <button class="menuBtn" (click)="showMenu = !showMenu" >
+  {{showMenu ? "X" : "+"}}
+  </button>
+  <a class="links5" href="#">Home</a>
+</div> -->
+
+
+ 
+ <div id="nav">
+  <h1 routerLink="/" class="logo">Jewellery Store</h1>
+
+  <ul [classList]="showMenu ? 'showMenu' : ''">
+    <input type="search"  (keyup)="search($event.target)"     placeholder="Search Your Product Here !"  />
+    <li class="links" routerLink="/dailywear">DailyWear</li>
+    <li class="links2" routerLink="/product">Products</li>
+    <li class="links5" routerLink="/cart">Cart ({{totalItem}})  </li>
+    <!-- <li  class="links3" routerLink="/account"> Account </li> -->
+    <!-- <li class="links4" href="#"> Stores</li> -->
+  </ul> 
+
+ <div class="options">
+    <!-- <input type="text" /> -->
+    <button routerLink="/account">Sign Up</button>
+    <button class="menuBtn" (click)="showMenu = !showMenu">
+      {{ showMenu ? "X" : "+" }}
+    </button> 
+ </div>
+ </div> 
